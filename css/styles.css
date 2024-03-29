@@ -38,3 +38,49 @@ ul{
             display: block;
             margin-left: auto;
 }
+.hero{
+    display: flex;
+    flex-direction: row;
+    gap: 129px;
+    height: 608px;
+}
+.hero-first{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-title{
+    font-weight: 700;
+        font-size: 48px;
+        line-height: 1.2;
+        color: #2c2c2c;
+}
+.hero-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #2c2c2c;
+}
+.hero-btn{
+    margin-right: auto;
+}
+.section-one-back{
+/* background-image: url(../images/section-2.jpg); */
+
+}
+.section-one{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    
+}
+.section-one-all{
+    margin-top: 99px;
+}
+.section-one-list{
+    display: flex;
+    flex-direction: row;
+    gap: 67px;
+    padding-top: 40px;
+}
