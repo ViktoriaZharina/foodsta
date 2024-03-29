@@ -1,0 +1,32 @@
+body{
+        font-family: "Roboto", sans-serif;
+            color: #434455;
+            background: #fff;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-list{
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+ul{
+    list-style: none;
+}
+
+.btn-order{
+    border-radius: 30px;
+        padding: 6px 17px;
+        width: 98px;
+        height: 32px;
+        background: #bbf330;
+        font-weight: 500;
+            font-size: 13px;
+            line-height: 1.5;
+            text-align: right;
+            color: #2c2c2c;
+}
