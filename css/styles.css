@@ -7,12 +7,18 @@ body{
 .header{
     display: flex;
     flex-direction: row;
+    padding: 18px;
+}
+
+.logo{
+    margin-right: 735px;
 }
 
 .header-list{
     display: flex;
     flex-direction: row;
     gap: 28px;
+    justify-content: flex-end;
 }
 ul{
     list-style: none;
@@ -21,7 +27,7 @@ ul{
 .btn-order{
     border-radius: 30px;
         padding: 6px 17px;
-        width: 98px;
+        min-width: 98px;
         height: 32px;
         background: #bbf330;
         font-weight: 500;
@@ -29,4 +35,6 @@ ul{
             line-height: 1.5;
             text-align: right;
             color: #2c2c2c;
+            display: block;
+            margin-left: auto;
 }
