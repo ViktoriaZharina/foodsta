@@ -23,6 +23,9 @@ body{
 ul{
     list-style: none;
 }
+section{
+    width: 1248px;
+}
 
 .btn-order{
     border-radius: 30px;
@@ -83,4 +86,27 @@ ul{
     flex-direction: row;
     gap: 67px;
     padding-top: 40px;
+}
+h2{
+    font-weight: 700;
+        font-size: 42px;
+        color: #2c2c2c;
+}
+
+.section-favorites h2{
+    text-align: center;
+}
+.section-favorites p {
+    text-align: center;
+}
+.favorites-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.favorites-item{
+    width: calc(100% - 64px)/ 3;
+
 }
